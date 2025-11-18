@@ -1,0 +1,19 @@
+<meta>
+	<info author="itsTay" name="Discord Integration" version="1.0.0"/>
+
+	<script src="discord_s.lua" type="server"/>
+	<script src="discord_c.lua" type="client"/>
+	
+	<export function="linkDiscordAccount" type="server"/>
+	<export function="unlinkDiscordAccount" type="server"/>
+	<export function="isPlayerLinked" type="server"/>
+	<export function="isPlayerGuildMember" type="server"/>
+	
+	<export function="downloadUserAvatar" type="client"/>
+	<export function="drawPlayerAvatar" type="client"/>
+
+	<export function="isPlayerDiscordAdmin" type="shared"/>
+
+	<min_mta_version client="1.5.7-9.20277"></min_mta_version>
+
+</meta>
