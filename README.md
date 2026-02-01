@@ -56,7 +56,7 @@ A professional, high-performance, and secure integration between **MTA:SA** and 
 
 ---
 
-## � Usage Examples
+## Usage Examples
 
 ### Server-Side: Check Role & Reward
 ```lua
@@ -108,7 +108,7 @@ end)
 
 ---
 
-## �📋 Commands
+## 📋 Commands
 - `/linkdiscord [DiscordID]` — Starts the linking process.
 - `/verify [Code]` — Verifies the code sent to your DMs.
 - `/unlinkdiscord` — Removes the link from your account.
