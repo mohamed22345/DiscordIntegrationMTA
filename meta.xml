@@ -1,0 +1,37 @@
+<meta>
+	<info author="itsTay" name="Discord Integration" version="1.0.0"/>
+
+	<script src="config.lua" type="shared"/>
+	<script src="discord_c.lua" type="client"/>
+	<script src="discord_s.lua" type="server"/>
+	
+	<export function="linkDiscordAccount" type="server"/>
+	<export function="unlinkDiscordAccount" type="server"/>
+	<export function="isPlayerLinked" type="server"/>
+	<export function="isPlayerGuildMember" type="server"/>
+	<export function="sendDiscordDM" type="server"/>
+	<export function="sendActivationCode" type="server"/>
+	<export function="verifyActivationCode" type="server"/>
+	<export function="getAvatar" type="server"/>
+	<export function="getPlayerAvatarWithRetry" type="server"/>
+	<export function="hasRole" type="server"/>
+	<export function="addRole" type="server"/>
+	<export function="removeRole" type="server"/>
+	<export function="getDiscordId" type="server"/>
+	<export function="sendChannelEmbed" type="server"/>
+	<export function="deleteChannelMessage" type="server"/>
+	<export function="getChannelMessages" type="server"/>
+	<export function="bulkDeleteMessages" type="server"/>
+
+	<export function="downloadUserAvatar" type="client"/>
+	<export function="drawPlayerAvatar" type="client"/>
+	<export function="getAvatarBase64" type="client"/>
+	<export function="getMyAvatarBase64" type="client"/>
+	<export function="getAvatarByDiscordId" type="client"/>
+	<export function="getCachedAvatar" type="client"/>
+
+	<export function="isPlayerDiscordAdmin" type="shared"/>
+
+	<min_mta_version client="1.5.7-9.20277" server="1.5.4-9.11342"></min_mta_version>
+
+</meta>
